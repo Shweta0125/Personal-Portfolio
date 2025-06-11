@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #0a192f;
+  color: #ccd6f6;
+  line-height: 1.6;
+}
+
+header {
+  padding: 30px 20px;
+  background-color: #112240;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #8892b0;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  margin-right: 1.5 rem; 
+  color:#8892b0;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #007bff;
+}
+
+/* Smooth scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  padding: 3rem 2rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 1rem auto;
+  display: block;
+  border: 3px solid #ff649d0e;
+  box-shadow: 0 0 10px rgba(100, 255, 206, 0.463);
+}
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.section h2 {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+}
+
+.education-item, .experience-item {
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #3498db;
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.05);
+}
+
+.education-item h3, .experience-item h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.4rem;
+  color: #2980b9;
+}
+
+.education-item p, .experience-item p {
+  margin: 4px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.experience-item ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+.experience-item ul li {
+  margin-bottom: 6px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.skills-item {
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #3498db;
+  border-radius: 8px;
+}
+
+.skill-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill- ul li {
+  padding: 6px 0;
+  font-size: 1rem;
+  color: #555;
+}
+.project-item {
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #3498db;
+  border-radius: 8px;
+}
+
+.cert-item{
+   background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #3498db;
+  border-radius: 8px;
+}
+
+.contact-links {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.contact-links h3 {
+  color: #ccd6f6;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 0.5rem 1rem;
+  text-decoration: none;
+  color: #64ffda;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s, transform 0.2s;
+}
+
+.contact-links a:hover {
+  border-color: #64ffda;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #112240;
+  color: #8892b0;
+  margin-top: 2rem;
+}
